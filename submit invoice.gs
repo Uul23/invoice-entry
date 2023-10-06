@@ -39,3 +39,4 @@ function submitData2() {
   rangeToClear = ss.getRange('L14').getNextDataCell(SpreadsheetApp.Direction.DOWN);
   rangeToClear.offset(-4, 0, 2).setValue('0,00%');
   rangeToClear.offset(-7, 0, 3).setValue('Rp0');
+}
